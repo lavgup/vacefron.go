@@ -39,7 +39,7 @@ func main() {
         fmt.Println(err)
     }
 
-    body, err := vacefron.Water("butch and sundance are back, baby!")
+    body, err := vacefron.Drip(parsedUrl)
     if err != nil {
         fmt.Println(err)
     }
